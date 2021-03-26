@@ -13,6 +13,7 @@ class Anagram
     words.select do |w|
       
     w.split("").sort == word.split("").sort
+    end
   end
   
 end
